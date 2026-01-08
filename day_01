@@ -1,0 +1,49 @@
+import sys
+print(sys.version)
+
+print(3+4)
+print(4-3)
+print(3*4)
+print(4/3)
+print(3**4)
+print(3%4)
+print(3//4)
+
+print("Arwa")
+print("Pakistan")
+print("Muhammad Ayub family")
+print("I am enjoying 30 days of python")
+
+print(type(10))
+print(type(9.8))
+print(type(4-4j))
+print(type(['Asabeneh', 'Python', 'Finland']))
+print(type("arwaa"))
+print(type("pakistan"))
+print(type("Muhammad Ayub family"))
+
+#number datatypes
+print(type(21))   #int
+print(type(5.9))  #float
+print(type(8-3j))  #complex
+print(type("my name is arwa"))  #string
+print(type("True"))  #boolean
+print(type({1,2,3}))  #list
+my_tuple=(1,2,3)
+print(type(my_tuple)) #tuple
+print(type({5,2,10,19})) #set
+print(type({"name": "Arwa", "age": 17})) #dictionary
+
+import math
+#points
+x1,y1=2,3
+x2,y2=10,8
+
+# Euclidean distance formula
+distance=math.sqrt((x2-x1)**2+(y2-y1)**2)
+print(distance)
+
+
+
+
+
