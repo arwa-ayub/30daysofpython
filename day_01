@@ -18,6 +18,7 @@ print("Muhammad Ayub family") #your family name
 print("I am enjoying 30 days of python")
 
 #Q:4 Check the data types of the following data:
+10,9.8,4 - 4j,['Asabeneh', 'Python', 'Finland'],Your name,Your country,Your family name
 print(type(10))
 print(type(9.8))
 print(type(4-4j))
