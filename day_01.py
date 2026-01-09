@@ -1,0 +1,56 @@
+#Q:1 Check the python version you are using
+import sys
+print(sys.version)
+
+#Q:2 Basic mathematical operations
+print(3+4)   #addition(+)
+print(4-3)   #subtraction(-)
+print(3*4)   #multiplication(*)
+print(4/3)   #division(/)
+print(3**4)  #exponential(**)
+print(3%4)   #modulus(%) 
+print(3//4)  #Floor division operator(//)
+
+#Q:3 Write strings
+print("Arwa")        #your name
+print("Pakistan")    #your country
+print("Muhammad Ayub family") #your family name
+print("I am enjoying 30 days of python")
+
+#Q:4 Check the data types of the following data:
+10,9.8,4 - 4j,['Asabeneh', 'Python', 'Finland'],"Your name,Your country,Your family name"
+print(type(10))
+print(type(9.8))
+print(type(4-4j))
+print(type(['Asabeneh', 'Python', 'Finland']))
+print(type("Arwa"))
+print(type("Pakistan"))
+print(type("Muhammad Ayub family"))
+
+#Q:5 Write an example for different Python data types such as Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.
+print(type(21))   #int
+print(type(5.9))  #float
+print(type(8-3j))  #complex
+print(type("my name is arwa"))  #string
+a,b =10,5
+print(type(a>b))  #bool
+print(type([0, 1, 2, 3, 4, 5]))  #list
+my_tuple=(1,2,3)
+print(type(my_tuple)) #tuple
+print(type({5,2,10,19})) #set
+print(type({"name": "Arwa", "age": 17})) #dictionary
+
+#Q:5 Find an Euclidian distance between (2, 3) and (10, 8)
+import math
+#points
+x1,y1=2,3
+x2,y2=10,8
+
+# Euclidean distance formula
+distance=math.sqrt((x2-x1)**2+(y2-y1)**2)
+print(distance)
+
+
+
+
+
