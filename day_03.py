@@ -113,6 +113,43 @@ if number%2 == 0:
 else :
     print("number is not even")
 
+#Q:18 Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
+floor_div=7//3
+int_value=int(2.7)
+result=(floor_div == int_value)
+print(result)
+
+#Q:19 Check if type of '10' is equal to type of 10
+type("10")
+type(10)
+print(type("10") == type(10))
+
+#Q:20 Check if int('9.8') is equal to 10
+result=int(float("9.8"))==10
+print(result)
+
+#Q:21 Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+hours=float(input("enter hours:"))
+rate_per_hour=float(input("enter rate per hour:"))
+pay=hours*rate_per_hour
+print("pay:",pay)
+
+#Q:22 Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live.
+years=float(input("enter number of years:"))
+seconds=years*365*24*60*60
+print("you have lived",seconds,"seconds")
 
 
+#Q:23 Write a Python script that displays the following table
+"""
+1 1 1 1 1
+2 1 2 4 8
+3 1 3 9 27
+4 1 4 16 64
+5 1 5 25 125  """
 
+print("n 1 n n**2 n**3")
+for n in range(1,6):
+    print(n, 1, n, n**2, n**3) 
+
+     
